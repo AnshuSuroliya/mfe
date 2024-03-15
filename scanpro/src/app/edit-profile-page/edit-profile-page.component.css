@@ -1,0 +1,61 @@
+/* Add your custom CSS styles here */
+
+.bg-image {
+    background-color: ''; /* Add your background color */
+}
+
+.container-fluid {
+    margin-top: 20px;
+}
+
+.card {
+    margin-top: -140px;
+    background: hsla(0, 0%, 100%, 0.8);
+    backdrop-filter: blur(30px);
+}
+
+.card-body {
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-primary {
+    max-width: 200px;
+    height: 40px;
+    background-color: #5995fd;
+}
+
+.alert {
+    margin-top: 1rem;
+}
+
+/* Adjustments for edit profile heading alignment and input field centering */
+h2.fw-bold.mb-0 {
+    display: flex;
+    align-items: center;
+}
+
+h2.fw-bold.mb-0 img {
+    margin-right: 10px; /* Adjust the spacing between the icon and the heading */
+}
+
+/* Centering input field boxes */
+.d-flex.justify-content-center.align-items-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.form-group {
+    width: 100%;
+    max-width: 400px; /* Set maximum width for the input fields */
+}
